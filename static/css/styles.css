@@ -1,0 +1,39 @@
+#map {
+  width: 100%;
+  height: 78vh;
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;
+}
+
+.leaflet-tooltip.ty-name {
+  background: rgba(255,255,255,0.95);
+  border: 1px solid #ccc;
+  color: #333;
+  padding: 6px 8px;
+  font-size: 12px;
+}
+
+/* 放大一點、游標變手指 */
+.form-check-input {
+  width: 1.15rem;
+  height: 1.15rem;
+  cursor: pointer;
+}
+
+/* 未勾選：加粗深灰邊框、白底更明顯 */
+.form-check-input:not(:checked) {
+  border: 2px solid #6c757d;
+  background-color: #fff;
+}
+
+/* 勾選：用主色，邊框同色 */
+.form-check-input:checked {
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+}
+
+/* 聚焦有外光暈，鍵盤操作更清楚 */
+.form-check-input:focus {
+  box-shadow: 0 0 0 .2rem rgba(13,110,253,.25);
+}
+
