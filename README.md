@@ -9,6 +9,16 @@ allowing users to query and visualize **typhoon/tropical cyclone tracks across g
 
 ---
 
+## 🖼️ 專案展示 (Demo Screenshots)
+
+### 西北太平洋颱風路徑 (Western North Pacific Tracks)
+![西北太平洋颱風](docs/screenshots/wpac-tracks.png)
+
+### 全球颱風分佈 (Global Distribution)
+![全球颱風](docs/screenshots/global-tracks.png)
+
+---
+
 ## 功能特色 (Features)
 - 🌏 支援多個盆地選擇 (北大西洋、西北太平洋、南印度洋等)  
 - ⏳ 可篩選年份 (1990–2024)  
